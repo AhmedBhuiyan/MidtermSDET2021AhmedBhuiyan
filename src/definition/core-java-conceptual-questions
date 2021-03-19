@@ -1,45 +1,122 @@
 Please answer the below core-java Questions:
 
-What is programing language?
+1.What is programing language?
 A.
+Programming is giving a set of instructions to a computer to execute.
 
 
-What jdk contains or composed of and define each components?
+2.What jdk contains or composed of and define each components?
 A.
+The Java Development Kit (JDK) is a software development environment used for
+developing Java applications and applets. It includes the Java Runtime Environment (JRE),
+an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation
+generator (Javadoc) and other tools needed in Java development.
 
 
-
-What is IDE?
+3.What is IDE?
 A.
+Independent development environment.
 
 
-
-What are the IDEs available in the market to support java?
+4.What are the IDEs available in the market to support java?
 A.
+Best Java IDE & Compilers ·  Eclipse , Kite , IntelliJ IDEA ,
+ BlueJ , MyEclipse , Xcode , Apache NetBeans , jGRASP.
 
 
 
-Explain the entire java life cycle.
+5.Explain the entire java life cycle.
 
-what is class?
+According to sun, there is only 4 states in thread life cycle in java new,
+runnable, non-runnable and terminated. There is no running state. But for
+better understanding the threads, we are explaining it in the 5 states.
+The life cycle of the thread in java is controlled by JVM.
 
-What is object?
-What is the entry point of an application?
-Why main is static?
-Which class is the superclass of all classes?
-What is difference between path and classpath variables?
-What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
-What is Java Package and which package is imported by default?
-What is API? Name list of API that you have used so far.
-Does java support multiple inheritance, explain why or why not?
-What is method overloading and when it happens?
-Explain exceptions in java and how to handle it.
-What is static keyword in java? How it has been used in variables and methods ?
-What is final and how it has been used variables and methods?
-What is final, finally and finalize?
+6.what is class?
+Java is an object-oriented programming language.
+A Class is like an object constructor, or a "blueprint" for creating objects.
+
+
+7.What is object?
+Object is an instance of a class.
+
+8.What is the entry point of an application?
+An application entry point identifies a resource that is an access
+point to an application. Application entry points are used to control
+users' access to different versions of an application that is deployed on a platform.
+
+9.Why main is static?
+Java program's main method has to be declared static because keyword static
+allows main to be called without creating an object of the class in which
+the main method is defined. ... Without having declared main method static ,
+your program will successfully compile but won't execute and report error at run time.
+
+
+
+10.Which class is the superclass of all classes?
+Java. lang. Object class is the root or superclass of the class hierarchy,
+which is present in java.
+
+
+11.What is difference between path and classpath variables?
+Path is used define where the system can find the executables(.exe) files
+and classpath is used to specify the location .
+
+12.What is the difference between an Interface and Abstract class?
+An abstract class allows us to create functionality that subclasses can
+implement or override. An interface only allows to define functionality,
+not implement it.
+
+
+13.Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
+14.what is Access Specifier?
+Java Access Specifiers regulate access to classes, fields and methods in Java.
+These Specifiers determine whether a field or method in a class, can be used or
+invoked by another method in another class or sub-class.
+
+
+15.What is OOP ? Define each feature of java OOP.
+OOP is object oriented programming.
+There are three main features of OOPS.
+1) Encapsulation.
+2) Inheritance.
+3) Polymorphism.
+
+16.What is Java Package and which package is imported by default?
+A package in Java is used to group related classes.
+Java compiler imports java.lang package internally by default.
+
+17.What is API? Name list of API that you have used so far.
+The full form of API is Application Programming Interface. It is a document which gives
+us the list of all the packages, classes, and interfaces, along with their fields and methods.
+
+18.Does java support multiple inheritance, explain why or why not?
+No Java doesn't support multiple inheritance.
+The reason behind this is to prevent ambiguity.java compiler cannot decide, which display method
+it should inherit. To prevent such situation, multiple inheritances is not allowed in java.
+
+19.What is method overloading and when it happens?
+Method overloading is a programming technique that allows developers to use the same method name
+multiple times in the same class, but with different parameters. In this case, we say that the
+method is overloaded.
+20.Explain exceptions in java and how to handle it.
+The classic definition of an exception is an event that occurs during the execution of a program
+and that disrupts the normal flow of instructions. Exceptions are specialized events that indicate
+something bad has happened in the application, and the application either needs to recover or exit.
+
+21.What is static keyword in java? How it has been used in variables and methods ?
+In the Java programming language, the keyword static indicates that the particular member belongs to a
+type itself, rather than to an instance of that type.
+
+22.What is final and how it has been used variables and methods?
+In Java, the final keyword can be used while declaring an entity. Using the final keyword means
+that the value can't be modified in the future. This entity can be - but is not limited to - a variable,
+a class or a method.
+
+
+23.What is final, finally and finalize?
+final is a reserved keyword in java.
 What is a constructor ?
 Can we have multiple constructors in a class?
 If we don't have a constructor declared, what is called during the object creation?

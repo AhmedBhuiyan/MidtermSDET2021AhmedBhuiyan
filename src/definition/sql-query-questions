@@ -2,18 +2,48 @@ This file contains SQL questions.
 Please read the questions and answer.
 
 What is Database?
-A.
+A.A database is an organized collection of structured information,
+or data, typically stored electronically in a computer system
 
 What is DBMS?
+Database Management Systems (DBMS) refer to the technology solution
+used to optimize and manage the storage and retrieval of data from databases.
+
 What is the difference between SQL and MySQL?
+SQL is a query language, whereas MySQL is a relational database that uses SQL
+to query a database.
+
 What is RDBMS? How is it different from DBMS?
+RDMS is Relational database Management System.The key difference is that RDBMS
+applications store data in a tabular form, while DBMS applications store data as files.
+
 What are Tables and Fields?
+A table has records (rows) and fields (columns). Fields have different types of data,
+
 What is SQL?
+SQl stands for Structured Query Language.
+
 What are Constraints in SQL?
+SQL constraints are used to specify rules for the data in a table.
+Constraints are used to limit the type of data that can go into a table.
+Constraints can be column level or table level.
+
 What is a Primary Key?
+The PRIMARY KEY constraint uniquely identifies each record in a table.
+Primary keys must contain UNIQUE values, and cannot contain NULL values.
+
 What is a Foreign Key?
+A foreign key (FK) is a column or combination of columns that is used to
+establish and enforce a link between the data in two tables to control the
+data that can be stored in the foreign key table.
+
 What is Normalization?
+Normalization is used to remove redundant data from the database and to store
+non-redundant and consistent data into it.
+
 What is Denormalization?
+Denormalization is used to combine multiple table data into one so that it can
+be queried quickly.Normalization uses optimized memory and hence faster in performance.
 
 You have 2 tables given below.
 
@@ -34,11 +64,33 @@ CustomerID	   CustomerName	    CustomerPhone	     Country
 Please do the following on above Order table and Customer table:
 
 Inner Join:
+SELECT Order.OrderID,Customer.CustomerName
+from Order
+INNER JOIN ON Order.CustomerID=Customer.CustomerID
+
+
 Left Join:
+SELECT Order.OrderID,Customer.CustomerName
+From Order
+LEFT JOIN ON Customer where Ordr.CustomerId=Customer.CustomerID
+ORDERED BY Order.OrderID
+
+
 Right Join:
+SELECT Order.OrderID,Customer.CustomerName
+From Order
+RIGHT JOIN ON Customer where Ordr.CustomerId=Customer.CustomerID
+ORDERED BY Order.OrderID
+
 Full Join:
+SELECT Order.OrderID,Customer.CustomerName
+From Order
+FULL OUTER JOIN Customer ON Order.CustomerID=Customer.CustomerID
+Ordered By Order.OrderID.
+
 
 On Customer Table, please Insert one row.
+
 
 On Order Table, please Update one row.
 

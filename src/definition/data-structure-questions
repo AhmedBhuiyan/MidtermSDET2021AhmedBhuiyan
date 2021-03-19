@@ -1,16 +1,47 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+
+A.Data structures provide a means to manage large amounts of data efficiently for uses
+such as large databases and internet indexing services. Usually, efficient data structures
+are key to designing efficient algorithms.
 
 
 What are the various operations that can be performed on different Data Structures?
+A.Basic Operatios on Data Structures:
+Insertion − Add a new data item in the data structure .
+Deletion − Delete an existing data item from the data structure.
+Traversal − Access each data item exactly once so that it can be processed.
+Searching − Find out the location of the data item if it exists in the data structure
+Sorting − Arranging the data items in some order.
+
+
 List out the areas in which data structures are applied extensively?
+A.In these situations, an alternative like the iterative method is the best fit.
+The implementation of recursion uses a lot of stack space, which can often result
+in redundancy. Every time we use recursion, we call a method that results in the
+creation of a new instance of that method.
+
 what is an Array?
+A.An array is a collection of items stored at contiguous memory locations.
+
 what is the difference between the Array and ArrayList?
+Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+
 what is LinkedList?
+Linked List is a part of the Collection framework present in java. util package. This class is
+an implementation of the LinkedList data structure which is a linear data structure where the
+elements are not stored in contiguous locations and every element is a separate object with a data
+part and address part.
+
 How is an Array different from Linked List?
+
+An array is a collection of elements of a similar data type. Linked List is an ordered collection
+of elements of the same type in which each element is connected to the next using pointers.
+
 what is queue?
+Java Queue is an interface available in java. util package and extends java.
+
 what is stack?
 what is FIFO and LIFO?
 what is the order of complexity?
